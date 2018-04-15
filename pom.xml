@@ -57,14 +57,6 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
         </dependency>
-
-
-		<dependency>
-			<groupId>com.africastalking</groupId>
-			<artifactId>core</artifactId>
-		</dependency>
-
-
 	</dependencies>
 
 	<build>
