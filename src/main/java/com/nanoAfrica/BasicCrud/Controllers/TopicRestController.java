@@ -20,6 +20,13 @@ public class TopicRestController {
         return "Hello from Spring";
     }*/
 
+     @GetMapping(value = "/africastalking")
+    public String hello()
+    {
+        //AfricasTalking.initialize(USERNAME, API_KEY);
+        return "Hello from Spring";
+    }
+
     @GetMapping(value = "/topics")
     public List<Topic>  topics()
     {
